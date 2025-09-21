@@ -13,6 +13,12 @@ global style * {
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 }
+/* 
+p::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  color: #e74c3c; */
+/* } */
 body {
   color: var(--text-color);
   line-height: 1.6;
@@ -182,7 +188,7 @@ main {
 /* About Page */
 .about-section {
   background: white;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 8px;
   box-shadow: var(--shadow);
   margin-bottom: 2rem;
