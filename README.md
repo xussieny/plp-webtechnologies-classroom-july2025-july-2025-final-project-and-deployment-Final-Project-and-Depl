@@ -45,11 +45,11 @@ Works on all modern browsers including:
 ## License
 
 This project is open source and available under the MIT License.
-`
+
 
 How to Use
 
-1. Copy the entire HTML code into a file named index.html
+1. Copy the entire HTML code into a file named index.html , about.html and contact.html
 2. Create a README.md file with the provided content
 3. Open index.html in a browser to view the website
 4. The website is fully responsive and includes all required functionality
