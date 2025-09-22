@@ -344,7 +344,7 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .menu-toggle {
     display: flex;
   }
