@@ -1,43 +1,11 @@
 
-const menuToggle = document.getElementById('menuToggle');
-        const navMenu = document.getElementById('navMenu');
-        const navLinks = document.querySelectorAll('.nav-link');
-        const pages = document.querySelectorAll('.page');
-        const contactForm = document.getElementById('contactForm');
-        
-        // Mobile Menu Toggle
-        menuToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
-        
-        // Navigation
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                
-                // Remove active class from all links and pages
-                navLinks.forEach(l => l.classList.remove('active'));
-                pages.forEach(page => page.classList.remove('active'));
-                
-                // Add active class to clicked link
-                link.classList.add('active');
-                
-                // Show corresponding page
-                const targetPage = link.getAttribute('href').substring(1);
-                document.getElementById(targetPage).classList.add('active');
-                
-                // Close mobile menu after clicking a link
-                navMenu.classList.remove('active');
-                
-                // Scroll to top
-                window.scrollTo(0, 0);
-            });
-        });
-        
-
-
-
-
+// const menuToggele = document.getElementById("#menu-toggel");
+// const navMenu = document.getElementById("#navmenu");
+// menuToggele.addEventListener("click", ()=>{
+//     mainMenu.classList.toggle("show")
+// }
+// );
+// form validation
 let form = document.getElementById("contactForm");
 function checkValidity(e){
     e.preventDefault();
