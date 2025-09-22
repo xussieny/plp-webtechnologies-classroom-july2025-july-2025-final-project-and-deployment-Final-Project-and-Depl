@@ -1,10 +1,5 @@
 
-// const menuToggele = document.getElementById("#menu-toggel");
-// const navMenu = document.getElementById("#navmenu");
-// menuToggele.addEventListener("click", ()=>{
-//     mainMenu.classList.toggle("show")
-// }
-// );
+// 
 // form validation
 let form = document.getElementById("contactForm");
 function checkValidity(e){
