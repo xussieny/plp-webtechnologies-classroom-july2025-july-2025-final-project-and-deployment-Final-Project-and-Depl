@@ -466,13 +466,24 @@ footer {
     left: 0;
   }
 }
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
+  .nav-menu {
+    position: fixed;
+    left: 2500px;
+    top: 30px;
+    font-size: 11px;
+    gap: 0px;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    margin-right: 2px;
+  }
   .hero {
     padding: 2rem 1rem;
   }
 
   .hero h1 {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 
   .hero p {
@@ -489,4 +500,4 @@ footer {
   .contact-form {
     padding: 1.5rem;
   }
-} */
+}
