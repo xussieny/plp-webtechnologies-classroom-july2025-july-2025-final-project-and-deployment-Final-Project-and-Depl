@@ -466,7 +466,7 @@ footer {
     left: 0;
   }
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .hero {
     padding: 2rem 1rem;
   }
@@ -489,4 +489,4 @@ footer {
   .contact-form {
     padding: 1.5rem;
   }
-}
+} */
