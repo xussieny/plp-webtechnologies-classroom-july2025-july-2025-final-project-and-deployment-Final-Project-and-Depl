@@ -469,7 +469,7 @@ footer {
 @media (max-width: 480px) {
   .nav-menu {
     position: fixed;
-    left: 2500px;
+    left: 250px;
     top: 30px;
     font-size: 11px;
     gap: 0px;
