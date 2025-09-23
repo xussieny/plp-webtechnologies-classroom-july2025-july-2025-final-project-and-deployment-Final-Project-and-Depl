@@ -1,5 +1,16 @@
 
-// 
+const hamberger = document.querySelector(".hamberger");
+const navmenu = document.querySelector(".nav-menu");
+hamberger.addEventListener("click", ()=>{
+    navmenu.classList.toggle("active");
+
+})
+document.querySelectorAll("nav-link").forEach(n=>n.addEventListener("click", ()=>{
+    hamberger.classList.remove("active");
+    navmenu.classList.remove("active");
+
+}))
+console.log(45);
 // form validation
 let form = document.getElementById("contactForm");
 function checkValidity(e){
