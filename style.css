@@ -451,8 +451,9 @@ footer {
   }
   .nav-menu {
     position: fixed;
-    left: 400px;
-    top: 10px;
+    left: 250px;
+    top: 30px;
+    font-size: 11px;
     gap: 0px;
     flex-direction: column;
     text-align: center;
